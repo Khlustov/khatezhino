@@ -1,5 +1,13 @@
-import React from "react"
+import React from "react";
+import Layout from "../components/Layout/Layout";
+import Main from "../components/MainPageComponents/MainPage";
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+import '../style/general.less';
+
+const Home = () => (
+  <Layout pageTitle='Хатежино'>
+    <Main/>
+  </Layout>
+)
+
+export default Home
